@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
+title                    : "张峻旗"
+description              : "北京工业大学 讲师"
+repository               : "Junqi-Zhang/junqi-zhang.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Lorem ipsum"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
+  name             : "张峻旗"
+  avatar           : "images/社交媒体账号.jpg"
+  bio              : "前双清博士 现高龄青椒"
+  location         : "北京, 中国"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
+  googlescholar    : "https://scholar.google.com/citations?user=xHc-QNYAAAAJ"
+  email            : "junqi.zhang@bjut.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -57,6 +57,16 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  zhihu:
+    - title: "个人主页"
+      url: "https://www.zhihu.com/people/zhang-jun-qi-44"
+      image: "https://static.zhihu.com/static/favicon.ico"
+      image_alt: "知乎"
+    - title: "大模型学习笔记"
+      url: "https://www.zhihu.com/column/c_1765686812465328128"
+      image: "https://static.zhihu.com/static/favicon.ico"
+      image_alt: "知乎专栏"
+
 
 
 # Reading Files

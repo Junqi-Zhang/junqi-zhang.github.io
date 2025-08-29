@@ -92,9 +92,10 @@
   }
 
   img {
-    max-width: 175px;
-    min-width: 75px;
-    border-radius: 50%;
+  max-width: 175px;
+  min-width: 75px;
+  height: auto; // 保持原始宽高比
+  border-radius: 50%; // 保持圆形裁剪
 
     @include breakpoint($large) {
       padding: 5px;

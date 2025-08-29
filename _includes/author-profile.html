@@ -1,5 +1,7 @@
 {% if page.author and site.data.authors[page.author] %}
-  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
 {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
@@ -10,7 +12,9 @@
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.bio %}
+      <p class="author__bio">{{ author.bio }}</p>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -117,9 +121,21 @@
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
-{% endif %}
+      {% endif %}
+      {% if author.zhihu %}
+        {% for z in author.zhihu %}
+          <li>
+            <a href="{{ z.url }}" target="_blank" rel="noopener">
+              <span style="display:inline-block;width:1.25em;text-align:center;margin-right:6px;vertical-align:text-bottom;">
+                <img src="{{ z.image }}" alt="{{ z.image_alt }}" style="width:16px;height:16px;vertical-align:bottom;">
+              </span>
+              {{ z.title }}
+            </a>
+          </li>
+        {% endfor %}
+      {% endif %}
     </ul>
-      <div class="author__urls_sm">
+    <div class="author__urls_sm">
       {% if author.uri %}
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
@@ -212,6 +228,13 @@
       {% endif %}
       {% if author.wikipedia %}
         <a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.zhihu %}
+        {% for z in author.zhihu %}
+          <a href="{{ z.url }}" target="_blank" rel="noopener" title="{{ z.title }}" aria-label="{{ z.title }}">
+            <img src="{{ z.image }}" alt="{{ z.image_alt }}" style="width:1em;height:1em;vertical-align:bottom;">
+          </a>
+        {% endfor %}
       {% endif %}
     </div>
   </div>
