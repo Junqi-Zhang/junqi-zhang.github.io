@@ -51,6 +51,17 @@
   .fal {
     color: mix(#fff, $gray, 25%);
   }
+
+  .icp {
+    text-align: center;
+    padding: 0.5em 0 1em;
+    font-size: $type-size-7;
+    color: mix(#fff, $gray, 35%);
+
+    .icp__link {
+      color: inherit;
+    }
+  }
 }
 
 .page__footer-copyright {

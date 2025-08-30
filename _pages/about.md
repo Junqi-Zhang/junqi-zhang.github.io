@@ -28,7 +28,7 @@ My research interest includes neural machine translation and computer vision. I 
 长期学术愿景是推动人工智能向低成本、强泛化与可解释三个目标持续进步。
 
 # 🎓 Join Us
-欢迎有意科研实习、攻读硕士或博士学位的同学加入[毕敬教授](https://yanzhao.bjut.edu.cn/info/1436/12466.htm)与我共同组成的科研团队，联系方式见左侧边栏邮箱。
+欢迎有意科研实习、攻读硕士或博士学位的同学加入[**毕敬教授**](https://yanzhao.bjut.edu.cn/info/1436/12466.htm)**与我共同组成**的科研团队，联系方式见左侧边栏邮箱。
 
 # 🔥 News
 - *2025.07*: &nbsp;正式加入北京工业大学计算机学院，担任软件工程系讲师。
@@ -43,8 +43,8 @@ My research interest includes neural machine translation and computer vision. I 
 - 2011.08 - 2021.07，清华大学信息科学与技术学院，自动化系自动化专业，本科生。 
 
 # 🎖 Honors and Awards
-- 2022年获得广告数据与算法部 618 优秀员工奖； 
-- 2015年获评北京市优秀毕业生、清华大学优良毕业生。
+- 2022.08，获得广告数据与算法部 618 优秀员工奖； 
+- 2015.07，获评北京市优秀毕业生、清华大学优良毕业生。
 
 # 📝 Representative Publications
 
