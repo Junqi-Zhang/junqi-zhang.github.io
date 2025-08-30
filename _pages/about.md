@@ -78,7 +78,7 @@ CCF推荐目录 数据挖掘**A类**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2020</div><img src='images/ACL2020.png' alt="sym" width="60%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2020</div><img src='images/ACL2020.png' alt="sym" width="70%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 CCF推荐目录 人工智能**A类**
@@ -93,7 +93,7 @@ Guanhua Zhang, Bing Bai, **Junqi Zhang**, Kun Bai, Conghui Zhu, Tiejun Zhao
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICWS 2017</div><img src='images/ICWS2017.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICWS 2017</div><img src='images/ICWS2017.png' alt="sym" width="70%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 CCF推荐目录 软件工程**B类**
@@ -102,7 +102,7 @@ CCF推荐目录 软件工程**B类**
 
 **Junqi Zhang**, Yushun Fan, Wei Tan, Jia Zhang
  
-*IEEE International Conference on Web Services, ICWS 2025*
+*IEEE International Conference on Web Services, 2025*
 
 </div>
 </div>
