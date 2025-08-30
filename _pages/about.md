@@ -63,6 +63,21 @@ CCF推荐目录 软件工程**A类**
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICWS 2021</div><img src='images/ICWS2021.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+CCF推荐目录 软件工程**B类**
+
+[Service Recommendation for Composition Creation based on Collaborative Attention Convolutional Network](https://ieeexplore.ieee.org/abstract/document/9590360)
+
+Ruyu Yan, Yushun Fan, Jia Zhang, **Junqi Zhang**, Haozhe Lin
+ 
+*IEEE International Conference on Web Services, 2021*
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2020</div><img src='images/KDD2020.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -102,11 +117,10 @@ CCF推荐目录 软件工程**B类**
 
 **Junqi Zhang**, Yushun Fan, Wei Tan, Jia Zhang
  
-*IEEE International Conference on Web Services, 2025*
+*IEEE International Conference on Web Services, 2017*
 
 </div>
 </div>
-
 
 
 # ✍️ Sharing & Blogs
