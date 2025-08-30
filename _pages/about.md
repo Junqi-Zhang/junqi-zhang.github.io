@@ -17,8 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+{% comment %}
 My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='{{ site.author.googlescholar }}'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='{{ site.author.googlescholar }}'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations&t=1690000000"></a>).
+{% endcomment %}
 
+现任北京工业大学计算机学院软件工程系讲师。分别于2015、2021年于清华大学自动化系获得自动化专业学士学位以及控制科学与工程学科博士学位。具有工业界与学术界的双重研究经历，方向为数据挖掘与人工智能，当前更为关注模型的基础结构与可解释性研究，对大模型同样保持高度兴趣。
 
 # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
