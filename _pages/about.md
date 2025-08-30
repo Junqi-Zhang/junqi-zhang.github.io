@@ -77,19 +77,37 @@ CCF推荐目录 数据挖掘**A类**
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2020</div><img src='images/ACL2020.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2020</div><img src='images/ACL2020.png' alt="sym" width="60%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 CCF推荐目录 人工智能**A类**
 
-[Demographics should not Be the reason of toxicity: mitigating discrimination in text classifications with instance weighting]](https://aclanthology.org/2020.acl-main.380/)
+[Demographics should not Be the reason of toxicity: mitigating discrimination in text classifications with instance weighting](https://aclanthology.org/2020.acl-main.380/)
 
-Guanhua Zhang, Bing Bai, Junqi Zhang, Kun Bai, Conghui Zhu, Tiejun Zhao
+Guanhua Zhang, Bing Bai, **Junqi Zhang**, Kun Bai, Conghui Zhu, Tiejun Zhao
  
 *The 58th Annual Meeting of the Association for Computational Linguistics, 2020*
 
 </div>
 </div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICWS 2017</div><img src='images/ICWS2017.png' alt="sym" width="80%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+CCF推荐目录 软件工程**B类**
+
+[Recommendation for Newborn Services by Divide-and-conquer](http://ieeexplore.ieee.org/document/8029745/)
+
+**Junqi Zhang**, Yushun Fan, Wei Tan, Jia Zhang
+ 
+*IEEE International Conference on Web Services, ICWS 2025*
+
+</div>
+</div>
+
+
 
 # ✍️ Sharing & Blogs
 - [大模型学习笔记](https://www.zhihu.com/column/c_1765686812465328128)：内容侧重大模型基座的结构基础、预训练、效率工程、微调与对齐，同时关注大模型技术与搜广推系统的结合；目前 博文 35 篇，累计阅读 5.7W+/点赞 850+/收藏 1k+，曾入选「知势榜」成长力答主。
