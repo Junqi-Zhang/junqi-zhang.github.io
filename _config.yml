@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "张峻旗"
-description              : "北京工业大学 讲师"
+description              : "欢迎交流关注"
 repository               : "Junqi-Zhang/junqi-zhang.github.io"
 google_scholar_stats_use_cdn : false
 icp_record               : "京ICP备2025115794号"
@@ -24,7 +24,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "张峻旗"
   avatar           : "images/社交媒体账号.jpg"
-  bio              : "前双清博士 现高龄青椒"
+  bio              : "北京工业大学 讲师"
   location         : "北京, 中国"
   employer         :
   pubmed           : 
