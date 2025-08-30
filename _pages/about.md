@@ -21,11 +21,11 @@ redirect_from:
 My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='{{ site.author.googlescholar }}'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='{{ site.author.googlescholar }}'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations&t=1690000000"></a>).
 {% endcomment %}
 
-我现任北京工业大学计算机学院软件工程系讲师，分别于2015年和2021年在清华大学自动化系获得自动化专业学士学位和控制科学与工程博士学位。
+现任北京工业大学计算机学院软件工程系讲师，分别于2015年和2021年在清华大学自动化系获得自动化专业学士学位和控制科学与工程博士学位。
 
-我兼具工业界与学术界的研究经验，**研究方向涵盖数据挖掘与人工智能**，当前重点关注模型基础结构与可解释性，同时对大模型的发展与应用保持高度关注。
+兼具工业界与学术界的研究经验，**研究方向涵盖数据挖掘与人工智能**，当前重点关注模型基础结构与可解释性，同时对大模型的发展与应用保持高度关注。
 
-我的长期学术愿景是推动人工智能向低成本、强泛化与可解释三个目标持续进步。
+长期学术愿景是推动人工智能向低成本、强泛化与可解释三个目标持续进步。
 
 # 🔥 News
 - *2025.07*: &nbsp;正式加入北京工业大学计算机学院，担任软件工程系讲师。
@@ -74,9 +74,5 @@ CCF推荐目录 数据挖掘**A类**
 </div>
 </div>
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# ✍️ Sharing and Blogs
+- [大模型学习笔记](https://www.zhihu.com/column/c_1765686812465328128)：内容侧重大模型基座的结构基础、预训练、效率工程、微调与对齐，同时关注大模型技术与搜广推系统的结合；目前 博文 35 篇，累计阅读 4W+/点赞 600+/收藏 1k+，曾入选「知势榜」成长力答主。
