@@ -13,6 +13,15 @@ var $hlinks = $('#site-nav .hidden-links');
 var breaks = [];
 
 function updateNav() {
+  if (window.matchMedia && window.matchMedia('(max-width: 768px)').matches) {
+    while($hlinks.children().length) {
+      $hlinks.children().first().appendTo($vlinks);
+    }
+    breaks = [];
+    $btn.addClass('hidden').removeClass('close').attr('count', 0);
+    $hlinks.addClass('hidden');
+    return;
+  }
 
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
 

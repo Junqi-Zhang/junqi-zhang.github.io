@@ -177,6 +177,18 @@
   min-width: 250px;
   background: $background-color;
 
+  @include breakpoint(max-width $medium) {
+    min-width: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
   a {
     display: block;
     margin: 0 1rem;
@@ -186,6 +198,14 @@
 
     &:hover {
       color: $masthead-link-color-hover;
+    }
+
+    @include breakpoint(max-width $medium) {
+      margin: 0;
+      padding: 0.5rem 0.75rem;
+      border-radius: 999px;
+      font-size: 0.95rem;
+      line-height: 1.2;
     }
   }
 
@@ -199,14 +219,31 @@
     background-color: $primary-color;
     color: #fff;
     cursor: pointer;
+
+    @include breakpoint(max-width $medium) {
+      display: none !important;
+    }
   }
 
   .visible-links {
     display: table;
 
+    @include breakpoint(max-width $medium) {
+      display: flex;
+      gap: 0.25rem;
+      width: max-content;
+      min-width: 100%;
+      padding: 0.4rem 0.75rem;
+    }
+
     li {
       display: table-cell;
       vertical-align: middle;
+
+      @include breakpoint(max-width $medium) {
+        display: block;
+        flex: 0 0 auto;
+      }
 
       &:first-child {
         font-weight: bold;
@@ -259,6 +296,10 @@
     border-radius: $border-radius;
     background: #fff;
     box-shadow: 0 0 10px rgba(#000, 0.25);
+
+    @include breakpoint(max-width $medium) {
+      display: none !important;
+    }
 
     a {
       margin: 0;
