@@ -4,7 +4,6 @@
 
 - 线上站点：<https://junqi-zhang.ourjqxd.com/>
 - GitHub 仓库：<https://github.com/Junqi-Zhang/junqi-zhang.github.io>
-- Google Scholar 数据分支：`google-scholar-stats`
 
 ## 本地开发
 
@@ -17,15 +16,6 @@ bash run_server.sh
 ```
 
 服务启动后打开 <http://127.0.0.1:4000>。
-
-## 引用数据更新
-
-Google Scholar 引用数据由 `.github/workflows/google_scholar_crawler.yaml` 更新。仓库需要配置名为 `GOOGLE_SCHOLAR_ID` 的 Actions Secret，其值为 Google Scholar 个人主页 URL 中的 `user=` 参数。
-
-工作流会将以下文件写入 `google-scholar-stats` 分支：
-
-- `gs_data.json`
-- `gs_data_shieldsio.json`
 
 ## 内容维护
 

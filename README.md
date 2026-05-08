@@ -7,7 +7,6 @@ This repository powers the personal academic homepage of Junqi Zhang:
 
 - Website: <https://junqi-zhang.ourjqxd.com/>
 - Source repository: <https://github.com/Junqi-Zhang/junqi-zhang.github.io>
-- Google Scholar data branch: `google-scholar-stats`
 
 ## Local Development
 
@@ -20,16 +19,6 @@ bash run_server.sh
 ```
 
 Open <http://127.0.0.1:4000> after the local server starts.
-
-## Citation Updates
-
-Google Scholar citation data is updated by `.github/workflows/google_scholar_crawler.yaml`.
-The workflow needs a repository secret named `GOOGLE_SCHOLAR_ID`; for this site it should match the `user=` value from the configured Google Scholar profile.
-
-The workflow writes these files to the `google-scholar-stats` branch:
-
-- `gs_data.json`
-- `gs_data_shieldsio.json`
 
 ## Site Content
 
