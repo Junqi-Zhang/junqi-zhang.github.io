@@ -263,6 +263,21 @@
     a {
       position: relative;
 
+      @include breakpoint(max-width $medium) {
+        &.is-active {
+          color: $link-color;
+          background: mix(#fff, $link-color, 90%);
+
+          &:before {
+            height: 2px;
+            background: $link-color;
+            -webkit-transform: scaleX(1);
+                -ms-transform: scaleX(1);
+                    transform: scaleX(1);
+          }
+        }
+      }
+
       &:before {
         content: "";
         position: absolute;

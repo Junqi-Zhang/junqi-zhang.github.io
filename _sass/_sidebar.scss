@@ -125,6 +125,7 @@
       max-width: 88px;
       min-width: 0;
       object-fit: cover;
+      object-position: 50% 18%;
     }
 
     @include breakpoint(max-width 480px) {
