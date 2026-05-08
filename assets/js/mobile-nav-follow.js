@@ -8,7 +8,7 @@
   }
 
   ready(function () {
-    var mobileQuery = window.matchMedia && window.matchMedia("(max-width: 768px)");
+    var mobileQuery = window.matchMedia ? window.matchMedia("(max-width: 768px)") : null;
     var nav = document.getElementById("site-nav");
     var linkList = nav && nav.querySelector(".visible-links");
     var masthead = document.querySelector(".masthead");
@@ -18,7 +18,7 @@
     var prefersReducedMotion = window.matchMedia &&
       window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-    if (!nav || !linkList || !mobileQuery) {
+    if (!nav || !linkList) {
       return;
     }
 
@@ -56,7 +56,7 @@
     }
 
     function scrollActiveLinkIntoView(link) {
-      if (!mobileQuery.matches || !link) {
+      if (!link || nav.scrollWidth <= nav.clientWidth + 1) {
         return;
       }
 
@@ -76,12 +76,14 @@
 
       if (activeLink) {
         activeLink.classList.remove("is-active");
+        activeLink.removeAttribute("aria-current");
       }
 
       activeLink = link;
 
       if (activeLink) {
         activeLink.classList.add("is-active");
+        activeLink.setAttribute("aria-current", "location");
         scrollActiveLinkIntoView(activeLink);
       }
     }
@@ -117,9 +119,9 @@
     window.addEventListener("scroll", requestUpdate, { passive: true });
     window.addEventListener("resize", refresh);
 
-    if (mobileQuery.addEventListener) {
+    if (mobileQuery && mobileQuery.addEventListener) {
       mobileQuery.addEventListener("change", refresh);
-    } else if (mobileQuery.addListener) {
+    } else if (mobileQuery && mobileQuery.addListener) {
       mobileQuery.addListener(refresh);
     }
 
