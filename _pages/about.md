@@ -27,6 +27,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 长期学术愿景是推动人工智能向低成本、强泛化与可解释三个目标的持续进步。
 
+<span class='anchor' id='-join-us'></span>
 # 🎓 Join Us ❗
 欢迎志在入门人工智能领域、参与科研项目的**本科生**，以及即将攻读硕士或博士学位的同学，加入[**毕敬教授**](https://yanzhao.bjut.edu.cn/info/1436/12466.htm)**与我共同组成**的科研团队，可通过 Email（详见页边栏）联系我。
 
@@ -127,4 +128,3 @@ CCF推荐目录 软件工程**B类**
 # ✍️ Sharing & Blogs
 <span class='anchor' id='-sharing-blogs'></span>
 - [大模型学习笔记](https://www.zhihu.com/column/c_1765686812465328128)：内容侧重大模型基座的结构基础、预训练、效率工程、微调与对齐，同时关注大模型技术与搜广推系统的结合；目前 博文 36 篇，累计阅读 6.5W+/点赞 900+/收藏 1.5k+，曾入选「知势榜」成长力答主。
-
