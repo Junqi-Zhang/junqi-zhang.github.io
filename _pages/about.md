@@ -26,7 +26,7 @@ redirect_from:
 
 # 🧑‍💻 Careers
 - 2023年6月，受聘启元国家实验室，获得“启元之鹰”计划提名，任智能感知技术研究中心研究岗，围绕视觉-语言模型展开探索性研究；
-- 2021年8月，入职北京京东世纪贸易有限公司，入选第五届“博士技术管培生“计划（DMT5），任搜索广告组算法工程师；
+- 2021年8月，入职北京京东世纪贸易有限公司，入选第五届“博士技术管培生”计划（DMT5），任搜索广告组算法工程师；
 - 2019年3月，获得腾讯科技（北京）有限公司实习机会，参与资讯推荐与 App 定向广告的算法优化及创新研究。
 
 # 📖 Educations
@@ -39,7 +39,7 @@ redirect_from:
 
 # 📝 Representative Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TSC 2022</div><img src='images/TSC2022.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TSC 2022</div><img src='{{ "/images/TSC2022.png" | relative_url }}' alt="TSC 2022 paper thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 CCF推荐目录 软件工程**A类**
@@ -54,7 +54,7 @@ CCF推荐目录 软件工程**A类**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICWS 2021</div><img src='images/ICWS2021.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICWS 2021</div><img src='{{ "/images/ICWS2021.png" | relative_url }}' alt="ICWS 2021 paper thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 CCF推荐目录 软件工程**B类**
@@ -69,7 +69,7 @@ Ruyu Yan, Yushun Fan, Jia Zhang, **Junqi Zhang**, Haozhe Lin
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2020</div><img src='images/KDD2020.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2020</div><img src='{{ "/images/KDD2020.png" | relative_url }}' alt="KDD 2020 paper thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 CCF推荐目录 数据挖掘**A类**
@@ -84,7 +84,7 @@ CCF推荐目录 数据挖掘**A类**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2020</div><img src='images/ACL2020.png' alt="sym" width="70%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2020</div><img src='{{ "/images/ACL2020.png" | relative_url }}' alt="ACL 2020 paper thumbnail" width="70%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 CCF推荐目录 人工智能**A类**
@@ -99,7 +99,7 @@ Guanhua Zhang, Bing Bai, **Junqi Zhang**, Kun Bai, Conghui Zhu, Tiejun Zhao
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICWS 2017</div><img src='images/ICWS2017.png' alt="sym" width="70%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICWS 2017</div><img src='{{ "/images/ICWS2017.png" | relative_url }}' alt="ICWS 2017 paper thumbnail" width="70%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 CCF推荐目录 软件工程**B类**
@@ -114,6 +114,6 @@ CCF推荐目录 软件工程**B类**
 </div>
 
 
-# ✍️ Sharing & Blogs
 <span class='anchor' id='-sharing-blogs'></span>
+# ✍️ Sharing & Blogs
 - [大模型学习笔记](https://www.zhihu.com/column/c_1765686812465328128)：内容侧重大模型基座的结构基础、预训练、效率工程、微调与对齐，同时关注大模型技术与搜广推系统的结合；目前 博文 36 篇，累计阅读 6.9W+/点赞 950+/收藏 1.5k+，曾入选「知势榜」成长力答主。
