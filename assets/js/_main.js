@@ -27,20 +27,18 @@ $(document).ready(function(){
   $(".sticky").Stickyfill();
 
   var stickySideBar = function(){
-    var show = $(".author__urls-wrapper button").length === 0 ? $(window).width() > 925 : !$(".author__urls-wrapper button").is(":visible");
-    // console.log("has button: " + $(".author__urls-wrapper button").length === 0);
-    // console.log("Window Width: " + windowWidth);
-    // console.log("show: " + show);
-    //old code was if($(window).width() > 1024)
+    var hasContactButton = $(".author__urls-wrapper button").length > 0;
+    var show = hasContactButton ? !$(".author__urls-wrapper button").is(":visible") : $(".author__urls_sm").css("display") === "none";
     if (show) {
       // fix
       Stickyfill.rebuild();
       Stickyfill.init();
-      $(".author__urls").show();
     } else {
       // unfix
       Stickyfill.stop();
-      $(".author__urls").hide();
+    }
+    if (hasContactButton) {
+      $(".author__urls").toggle(show);
     }
   };
 
