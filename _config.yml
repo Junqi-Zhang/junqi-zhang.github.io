@@ -61,10 +61,12 @@ author:
   wikipedia        :
   zhihu:
     - title: "个人主页"
+      short_title: "知乎主页"
       url: "https://www.zhihu.com/people/zhang-jun-qi-44"
       image: "https://static.zhihu.com/static/favicon.ico"
       image_alt: "知乎"
     - title: "大模型学习笔记"
+      short_title: "学习笔记"
       url: "https://www.zhihu.com/column/c_1765686812465328128"
       image: "https://static.zhihu.com/static/favicon.ico"
       image_alt: "知乎专栏"

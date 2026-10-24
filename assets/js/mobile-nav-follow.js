@@ -46,7 +46,7 @@
     }
 
     function collectSections() {
-      sections = Array.prototype.slice.call(linkList.querySelectorAll("a[href*='#']"))
+      sections = Array.prototype.slice.call(nav.querySelectorAll(".masthead__menu-item:not(.masthead__menu-home-item) a[href*='#']"))
         .map(sectionForLink)
         .filter(Boolean);
     }
@@ -56,7 +56,7 @@
     }
 
     function scrollActiveLinkIntoView(link) {
-      if (!link || nav.scrollWidth <= nav.clientWidth + 1) {
+      if (!link || !mobileQuery || !mobileQuery.matches || nav.scrollWidth <= nav.clientWidth + 1) {
         return;
       }
 
@@ -100,6 +100,12 @@
         }
       });
 
+      var pageHeight = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight);
+      if (sections.length && window.pageYOffset > 0 &&
+          window.pageYOffset + window.innerHeight >= pageHeight - 2) {
+        current = sections[sections.length - 1];
+      }
+
       setActive(current && current.link);
       ticking = false;
     }
@@ -114,6 +120,7 @@
     function refresh() {
       collectSections();
       requestUpdate();
+      scrollActiveLinkIntoView(activeLink);
     }
 
     window.addEventListener("scroll", requestUpdate, { passive: true });

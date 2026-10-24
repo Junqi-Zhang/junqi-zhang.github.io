@@ -2,6 +2,7 @@
 permalink: /
 title: ""
 excerpt: ""
+description: "张峻旗，北京工业大学计算机学院讲师，研究方向包括机器学习、数据挖掘、稀疏高效 Transformer 与时间序列分析。"
 author_profile: true
 redirect_from: 
   - /about/
@@ -18,19 +19,23 @@ redirect_from:
 
 <span class='anchor' id='-join-us'></span>
 # 🎓 Join Us ❗
-欢迎志在入门人工智能领域、参与科研项目的**本科生**，通过 Email（详见页边栏）联系我。
+欢迎志在入门人工智能领域、参与科研项目的**本科生**，通过 [Email](mailto:{{ site.author.email }}) 联系我。
+
+来信请简要介绍年级、专业及相关基础，并附上个人简历。
 
 # 🔥 News
+- *2026.09*: &nbsp;担任都柏林国际学院 263722 班班主任。
 - *2026.07*: &nbsp;获得北京市博士后科研活动经费资助，资助项目为《稀疏高效大模型基础结构研究》。
 - *2025.11*: &nbsp;主持北京工业大学新进青年教师资助计划项目《认知启发的稀疏高效大模型关键基础结构研究》。
-- *2025.07*: &nbsp;正式加入北京工业大学计算机学院，担任软件工程系讲师。
 
 # 🧑‍💻 Careers
+- 2025年7月，正式加入北京工业大学计算机学院，担任软件工程系讲师；
 - 2023年6月，受聘启元国家实验室，获得“启元之鹰”计划提名，任智能感知技术研究中心研究岗，围绕视觉-语言模型展开探索性研究；
 - 2021年8月，入职北京京东世纪贸易有限公司，入选第五届“博士技术管培生”计划（DMT5），任搜索广告组算法工程师；
 - 2019年3月，获得腾讯科技（北京）有限公司实习机会，参与资讯推荐与 App 定向广告的算法优化及创新研究。
 
-# 📖 Educations
+<span class='anchor' id='-educations'></span>
+# 📖 Education
 - 2015.09 - 2021.06，清华大学信息科学与技术学院，自动化系控制科学与工程学科，博士研究生，导师为范玉顺教授；
 - 2011.08 - 2015.07，清华大学信息科学与技术学院，自动化系自动化专业，本科生。 
 
@@ -90,7 +95,7 @@ CCF推荐目录 数据挖掘**A类**
 
 CCF推荐目录 人工智能**A类**
 
-[Demographics should not Be the reason of toxicity: mitigating discrimination in text classifications with instance weighting](https://aclanthology.org/2020.acl-main.380/)
+[Demographics Should Not Be the Reason of Toxicity: Mitigating Discrimination in Text Classifications with Instance Weighting](https://aclanthology.org/2020.acl-main.380/)
 
 Guanhua Zhang, Bing Bai, **Junqi Zhang**, Kun Bai, Conghui Zhu, Tiejun Zhao
  
@@ -117,4 +122,4 @@ CCF推荐目录 软件工程**B类**
 
 <span class='anchor' id='-sharing-blogs'></span>
 # ✍️ Sharing & Blogs
-- [大模型学习笔记](https://www.zhihu.com/column/c_1765686812465328128)：内容侧重大模型基座的结构基础、预训练、效率工程、微调与对齐，同时关注大模型技术与搜广推系统的结合；目前 博文 36 篇，累计阅读 6.9W+/点赞 950+/收藏 1.5k+，曾入选「知势榜」成长力答主。
+- [大模型学习笔记](https://www.zhihu.com/column/c_1765686812465328128)：内容侧重大模型基座的结构基础、预训练、效率工程、微调与对齐，同时关注大模型技术与搜广推系统的结合；目前 博文 36 篇，累计阅读 7.2W+/点赞 950+/收藏 1.6k+，曾入选「知势榜」成长力答主。
